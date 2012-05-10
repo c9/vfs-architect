@@ -1,0 +1,10 @@
+{
+    "name": "vfs.local",
+    "version": "0.0.1",
+    "main": "local-ext.js",
+    "private": true,
+
+    "plugin": {
+        "provides": ["vfs"]
+    }
+}

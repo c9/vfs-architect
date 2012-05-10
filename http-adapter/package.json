@@ -1,0 +1,14 @@
+{
+    "name": "vfs.http-adapter",
+    "version": "0.0.1",
+    "main": "http-adapter-ext.js",
+    "private": true,
+
+    "plugin": {
+        "provides": ["vfs-rest"],
+        "consumes" : [
+            "vfs",
+            "connect"
+        ]
+    }
+}
