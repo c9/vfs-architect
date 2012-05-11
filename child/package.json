@@ -1,0 +1,10 @@
+{
+    "name": "vfs.child",
+    "version": "0.0.1",
+    "main": "child-ext.js",
+    "private": true,
+
+    "plugin": {
+        "provides": ["vfs"]
+    }
+}
