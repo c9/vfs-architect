@@ -6,7 +6,9 @@ module.exports = function setup(options, imports, register) {
     assert.equal(typeof options.gid, "number", "option 'gid' is required");
     assert(options.root, "option 'root' is required");
 
-    register(null, {
-        "vfs": require("vfs/child")(options)
+    require("vfs/child")(options, function(err, vfs) {
+        register(err, {
+            "vfs": vfs
+        });
     });
 }
