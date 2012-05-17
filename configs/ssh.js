@@ -14,8 +14,7 @@ module.exports = {
                 packagePath: "./ssh",
                 host: "localhost",
                 root: process.env.HOME + "/",
-                nodePath: process.execPath,
-                httpRoot: "http://localhost:" + port + "/"
+                nodePath: process.execPath
             }, {
                 packagePath: "./http-adapter",
                 mount: "/"
