@@ -10,7 +10,7 @@
 
     "dependencies": {
         "architect": "~0.0.3",
-        "vfs": "~0.0.1"
+        "vfs": "git://github.com/c9/vfs.git#078762a9e5fe6f4652a3c0a81ff65bb3bea1dd08"
     },
 
     "repository" : {
