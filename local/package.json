@@ -4,6 +4,10 @@
     "main": "local-ext.js",
     "private": true,
 
+    "dependencies": {
+        "vfs-local": "~0.0.3"
+    },
+
     "plugin": {
         "provides": ["vfs"]
     }
