@@ -9,9 +9,9 @@
     ],
 
     "dependencies": {
-        "architect": "~0.0.3",
-        "vfs-local": "~0.1.0",
-        "vfs": "git://github.com/c9/vfs.git#078762a9e5fe6f4652a3c0a81ff65bb3bea1dd08"
+        "architect": "0.1.x",
+        "vfs-local": "0.3.x",
+        "vfs": "git://github.com/c9/vfs.git#83c17a160bfdbb65f0d7977391b30dca83931853"
     },
 
     "repository" : {
