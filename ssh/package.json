@@ -1,0 +1,14 @@
+{
+    "name": "vfs.ssh",
+    "version": "0.0.1",
+    "main": "ssh-ext.js",
+    "private": true,
+
+    "dependencies": {
+        "vfs-local": "~0.0.3"
+    },
+
+    "plugin": {
+        "provides": ["vfs"]
+    }
+}
