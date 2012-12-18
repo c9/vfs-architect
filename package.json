@@ -2,20 +2,26 @@
     "name": "vfs-architect",
     "description": "architect plugins for vfs",
     "version": "0.0.2",
-
-    "author": "ajax.org B.V. <info@ajax.org>",
-    "contributors": [
-        { "name": "Fabian Jakobs", "email": "fabian@c9.io" }
-    ],
-
+    "author": {
+        "name": "ajax.org B.V.",
+        "email": "info@ajax.org"
+    },
+    "contributors": [{
+        "name": "Fabian Jakobs",
+        "email": "fabian@c9.io"
+    }],
     "dependencies": {
         "architect": "~0.1.4",
         "vfs-local": "~0.3.4",
-        "vfs": "git://github.com/c9/vfs.git#078762a9e5fe6f4652a3c0a81ff65bb3bea1dd08"
+        "vfs-http-adapter": "~0.2.3",
+        "vfs-ssh": "git://github.com/c9/vfs-ssh.git#73b563557a4f4db595a8d0879fac1d7155e5d83f",
+        "vfs": "git://github.com/c9/vfs.git#6c7249e96a5cde8b7957fbdf1cb838a9a7959afb"
     },
-
-    "repository" : {
-        "type" : "git",
-        "url" : "http://github.com/c9/vfs-architect.git"
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/c9/vfs-architect.git"
+    },
+    "scripts": {
+        "start": "node server.js"
     }
 }
