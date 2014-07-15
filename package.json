@@ -15,6 +15,12 @@
     "optionalDependencies": {
         "vfs": "git://github.com/c9/vfs.git#078762a9e5fe6f4652a3c0a81ff65bb3bea1dd08"
     },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/c9/vfs-architect/raw/master/LICENSE"
+        }
+    ]
     "repository" : {
         "type" : "git",
         "url" : "http://github.com/c9/vfs-architect.git"
